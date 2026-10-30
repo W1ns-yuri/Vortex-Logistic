@@ -42,6 +42,9 @@ a {
     transition: all 0.2s ease-in-out;
     font-weight: 600;
 }
+a.btn {
+    opacity: 1;
+}
 
 a:hover {
     opacity: 1;
@@ -49,14 +52,13 @@ a:hover {
 
 .header {
     background-color: var(--color-bg);
-    align-items: center;
     padding: 0.9rem 2.1rem;
     width: 100%;
     margin: 0 auto;
     position: sticky;
     top: 0;
     z-index: 100;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2); 
 }
 
 .header-inner {
@@ -135,6 +137,10 @@ nav {
     height: 38px;
     font-size: 14px;
     padding: 0 16px;
+}
+
+.btn--max {
+    width: 100%;
 }
 
 .hero {
@@ -451,20 +457,6 @@ nav {
     line-height: 1.6;
 }
 
-.rates-card-btn {
-    border-radius: 1.5rem;
-    color: var(--color-primary);
-    font-weight: bold;
-    transition: all 0.2s ease-in-out;
-    border: 1px solid var(--color-border);
-    padding: 0.7rem 1rem;
-}
-
-.rates-card-btn:hover {
-    background: #e9e9f0;
-    box-shadow: 0px 0px 20px var(--color-border);
-}
-
 .rates-includes-list {
     list-style: none;
     padding: 0;
@@ -502,7 +494,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
     width: 100%;
 }   
 
