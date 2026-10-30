@@ -181,11 +181,11 @@ nav {
 }
 
 .hero-left {
-    width: 50%;
+    flex: 1;
 }
 
 .hero-right {
-    width: 50%;
+    flex: 1;
 }
 
 .logo {
