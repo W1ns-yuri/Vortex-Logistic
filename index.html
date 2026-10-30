@@ -242,19 +242,19 @@
                         <form>
                             <div class="form-item">
                                 <label for="from">Откуда</label>
-                                <input type="text" id="from" name="from" placeholder="Город или индекс">
+                                <input type="text" id="from" name="from" placeholder="Город или индекс" required>
                             </div>
                             <div class="form-item">
                                 <label for="to">Куда</label>
-                                <input type="text" id="to" name="to" placeholder="Город или индекс">
+                                <input type="text" id="to" name="to" placeholder="Город или индекс" required>
                             </div>
                             <div class="form-item">
                                 <label for="weight">Вес</label>
-                                <input type="number" id="weight" name="weight" placeholder="Вес в кг">
+                                <input type="number" id="weight" name="weight" placeholder="Вес в кг" required>
                             </div>
                             <div class="form-item">
-                                <label>Тип перевозки</label>
-                                <select name="type_of_transport" id="transport-type"> 
+                                <label for="transport-type">Тип перевозки</label>
+                                <select name="type_of_transport" id="transport-type" required> 
                                     <option value="">Выберите тип перевозки</option>
                                     <option value="road">Автомобильная перевозка</option>
                                     <option value="rail">Железнодорожная перевозка</option>
@@ -264,11 +264,11 @@
                             </div>
                             <div class="form-item">
                                 <label for="email">Ваш Email</label>
-                                <input type="email" id="email" name="email" placeholder="Email">
+                                <input type="email" id="email" name="email" placeholder="Email" required>
                             </div>
                             <div class="form-item">
                                 <label for="phone">Номер телефона</label>
-                                <input type="tel" id="phone" name="phone" placeholder="Номер телефона">
+                                <input type="tel" id="phone" name="phone" placeholder="Номер телефона" required>
                             </div>
                             <div class="form-item">
                                 <label for="comment">Комментарий</label>
