@@ -487,9 +487,8 @@ nav {
 }
 
 .form-content{
-    width: 40%;
-    min-width: 440px;
-    max-width: 95%;
+    width: 100%;
+    max-width: 560px; 
     padding: 30px;  
     border-radius: 16px;
     background-color: var(--color-surface);
