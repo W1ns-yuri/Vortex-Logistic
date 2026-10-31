@@ -593,26 +593,6 @@ nav {
     border-color: var(--color-primary);
 }
 
-.form-content .btn-primary {
-    width: 100%;
-    height: 48px;
-    background-color: var(--color-primary);
-    border: none;
-    border-radius: 10px;
-    color: var(--color-text-main);
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    box-shadow: 0 4px 15px var(--color-btn-primary-hover);
-}
-
-.form-content .btn-primary:hover {
-    background-color: var(--color-primary);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px var(--color-btn-primary-hover);
-}
-
 .faq-container {
     display: flex;
     justify-content: center;
@@ -665,15 +645,13 @@ nav {
 
 .footer {
     background-color: var(--color-surface);
-    padding: 2rem 0;
-    margin-top: auto; 
+    padding: 4rem 0; 
 }
 
 .footer-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 2rem;
-    margin: 3rem ;
 }
 
 .footer-item {
